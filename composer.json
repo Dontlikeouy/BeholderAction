@@ -1,0 +1,11 @@
+{
+    "require": {
+        "vkcom/vk-php-sdk": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BeholderAction\\": "BeholderAction",
+            "Generator\\Skeleton\\skeleton\\base\\src\\VK\\": "vendor/vkcom/vk-php-sdk/src/VK"
+        }
+    }
+}
